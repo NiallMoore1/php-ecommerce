@@ -7,15 +7,34 @@
 
         <body>
 <!--main container-->
-	            <div class="main-wrapper">  
+	            <div class="main-wrapper">
+<!--header-->
+  
                         <img id="logo" src="images/image-11.jpeg"/>
                         <img id="banner" src="images/image-22.jpeg"/>
                 </div>
+<!--/header-->
+<!--navbar-->
+
                     <div class="menubar">
+                        <ul id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">All Products</a></li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
                     </div>
-                
+<!--search box-->
+<!--/search box-->                   
+<!--/navbar--> 
+<!--content wrapper -->	              
                 <div class="content-wraper">
-                <div id="sidebar"></div>
-                <div id="content_area"></div>
+                    <div id="sidebar"></div>
+                    <div id="content_area"></div>
+                </div>
+<!--/content wrapper-->	
+<!--/ container ends-->
 	     </body>
 </html>
