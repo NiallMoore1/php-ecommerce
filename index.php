@@ -1,4 +1,7 @@
 <!DOCTYPE>
+<?php
+include("functions/functions.php");
+?>
 <html>
     <head>
         <title> On Line Store </title>
@@ -41,12 +44,7 @@
                     <div id="sidebar">
                     <div id="sidebar-title">Categories</div>
                         <ul id="cats">
-                            <li><a href="#">Laptop</a></li>
-                            <li><a href="#">Computers</a></li>
-                            <li><a href="#">Mobiles</a></li>
-                            <li><a href="#">Cameras</a></li>
-                            <li><a href="#">Ipads</a></li>
-                            <li><a href="#">Tablets</a></li>
+                        <?php getCats();?>
                         </ul>
                         <div id="sidebar-title">Brands</div>
                         <ul id="brands">
