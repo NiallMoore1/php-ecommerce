@@ -38,7 +38,26 @@
 <!--/navbar--> 
 <!--content wrapper -->	              
                 <div class="content-wraper">
-                    <div id="sidebar"></div>
+                    <div id="sidebar">
+                    <div id="sidebar-title">Categories</div>
+                        <ul id="cats">
+                            <li><a href="#">Laptop</a></li>
+                            <li><a href="#">Computers</a></li>
+                            <li><a href="#">Mobiles</a></li>
+                            <li><a href="#">Cameras</a></li>
+                            <li><a href="#">Ipads</a></li>
+                            <li><a href="#">Tablets</a></li>
+                        </ul>
+                        <div id="sidebar-title">Brands</div>
+                        <ul id="brands">
+                            <li><a href="#">HP</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Motorola</a></li>
+                            <li><a href="#">Sony</a></li>
+                            <li><a href="#">LG</a></li>
+                            <li><a href="#">Apple</a></li>
+                        </ul>
+					</div>
                     <div id="content_area"></div>
                 </div>
 <!--/content wrapper-->	
